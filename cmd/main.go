@@ -18,7 +18,7 @@ func main() {
 	account, err := svc.RegisterAccount("+992918176779")
 	if err != nil {
 		fmt.Println(err)
-		fmt.Println(account)
+		fmt.Println(account)	
 		return
 	}
 
